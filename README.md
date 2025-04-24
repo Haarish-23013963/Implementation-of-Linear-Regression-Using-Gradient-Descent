@@ -9,13 +9,26 @@ To write a program to predict the profit of a city using the linear regression m
 
 ## Algorithm
 
-1. Import the required library and read the dataframe.
+1.Start
 
-2.Write a function computeCost to generate the cost function.
+2.Import numpy, pandas, StandardScaler
 
-3.Perform iterations og gradient steps with learning rate.
+3.Add bias, initialize theta, update iteratively
 
-4.Plot the Cost function using Gradient Descent and generate the required graph.
+4.Load 50_Startups.csv
+
+5.Extract and convert features (X) and target (y)
+
+6.Normalize X and y
+
+7.Train model using gradient descent → get theta
+
+8.Normalize new input, predict, inverse scale result
+
+9.Print prediction
+
+10.End
+
 
 ## Program:
 ```
